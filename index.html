@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" src="assets/ico/coffee-48x48.svg" type="image/x-icon" />
+    <title>New Tab</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="dropdown">
+        <button class="dropbtn">Daily</button>
+        <div class="dropdown-content">
+          <a href="https://www.youtube.com">YouTube</a>
+          <hr />
+          <a href="https://www.udemy.com/">Udemy</a>
+          <hr />
+          <a href="https://github.com/akashgagda">Github</a>
+          <hr />
+          <a href="https://www.reddit.com/r/unixporn/">UnixPorn</a>
+          <hr />
+          <a href="https://stackoverflow.com/">StackOverflow</a>
+          <hr />
+          <a href="https://www.netflix.com/browse">Netflix</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Social</button>
+        <div class="dropdown-content">
+          <a href="https://inbox.google.com/">Inbox</a>
+          <hr />
+          <a href="https://instagram.com/">Instagram</a>
+          <hr />
+          <a href="https://web.whatsapp.com/">Whatsapp</a>
+          <hr />
+          <a href="https://www.twitter.com/home">Twitter</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Torrent</button>
+        <div class="dropdown-content">
+          <a href="https://yts.mx/">YTS</a>
+          <hr />
+          <a href="https://1337x.to/">1337</a>
+          <hr />
+          <a href="https://rarbg.to/index80.php">RARBG</a>
+        </div>
+      </div>
+    </div>
+    <img
+      id="avatar"
+      src="assets/img/avatar.png"
+      alt="Avatar"
+      data-tooltip="That's you!"
+    />
+    <h1 id="greeting"></h1>
+    <form id="search-bar" name="search-bar">
+      <input
+        type="text"
+        id="input"
+        autocomplete="off"
+        placeholder="Searching with DuckDuckGo"
+      /><br />
+    </form>
+    <script async type="text/javascript" src="js/script.js"></script>
+    <script async type="text/javascript" src="js/search.js"></script>
+    <script async type="text/javascript" src="js/event_listeners.js"></script>
+  </body>
+</html>
